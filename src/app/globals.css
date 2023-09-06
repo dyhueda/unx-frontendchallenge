@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background: rgb(28,32,64);
+  background: radial-gradient(circle, rgba(28,32,64,1) 0%, rgba(0,0,0,1) 77%);
+  background-position: -250px 100px;
+}
